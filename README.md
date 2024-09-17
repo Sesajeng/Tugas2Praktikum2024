@@ -1,31 +1,6 @@
 # Tugas Pertemuan 2
 
-Fork dan clone repository ini, lalu jalankan perintah 
-```
-flutter pub get
-```
-Buatlah tampilan form yang berisi nama, nim, dan tahun lahir pada file `ui/form_data.dart`, lalu buatlah tampilan hasil dari input data tersebut pada file `ui/tampil_data.dart`
-
-JELASKAN PROSES PASSING DATA DARI FORM MENUJU TAMPILAN DENGAN FILE `README.md`
-
-Buat tampilan semenarik mungkin untuk dilihat.
-
-
-Nama : ___
-
-NIM : ___
-
-Shift Baru: ___
-
-## Screenshot
-Contoh :
-![Lampiran Form](form.png)
-![Lampiran Hasil](hasil.png)
-
-
-
-
-PROSES PASSING DATA DARI FORM MENUJU TAMPILAN
+**PROSES PASSING DATA DARI FORM MENUJU TAMPILAN**
 
 1.	Form di input dari form_data.dart
 FormData memiliki beberapa TextEditingController yang digunakan untuk mengambil input pengguna.
@@ -77,13 +52,13 @@ final int umur = DateTime.now().year - tahun;
 
 Output dari program : 
 
-Tampilan Awal
+**Tampilan Awal**
 ![Tampilan_Awal](tampilan_awal.png)
 
- Input
+** Input**
 ![Lampiran Hasil](tampilan_input.png)
 
-Output
+**Output**
 ![Lampiran Hasil](output.png)
  
 
