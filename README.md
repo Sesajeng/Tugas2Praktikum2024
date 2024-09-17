@@ -76,10 +76,14 @@ _buildInfoSection(
 final int umur = DateTime.now().year - tahun;
 
 Output dari program : 
-Awal
- 
-Input 
- 
-Ouptut
+
+Tampilan Awal
+![Tampilan_Awal](tampilan_awal.png)
+
+ Input
+![Lampiran Hasil](tampilan_input.png)
+
+Output
+![Lampiran Hasil](output.png)
  
 
